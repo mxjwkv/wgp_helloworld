@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 
-#define VER 1
+#define VER 2
 
 #include "wgp_helloworld.h"
 #include "wgp_helloworldDlg.h"
@@ -106,12 +106,12 @@ void Cwgp_helloworldDlg::OnBnClickedButton1()
     MessageBoxA(NULL, szBuf128, "Info", MB_OK);
 
     ///printf("libfunc - lib_test_incr_num(101) = %d\n", lib_test_incr_num(101));
-    sprintf_s(szBuf128, 128, "libfunc - lib_test_incr_num(101) = %d", lib_test_incr_num(101));
+    sprintf_s(szBuf128, 128, "wlp_libfunc - lib_test_incr_num(101) = %d", lib_test_incr_num(101));
     MessageBoxA(NULL, szBuf128, "Info", MB_OK);
 
     x1.setb(222);
     ///printf("libclass - x.display():\n");
     ///x1.display();
-    sprintf_s(szBuf128, 128, "libclass - x1.geta()=%d  x1.getb()=%d", x1.geta(), x1.getb());
+    sprintf_s(szBuf128, 128, "wlp_libclass - x1.geta()=%d  x1.getb()=%d", x1.geta(), x1.getb());
     MessageBoxA(NULL, szBuf128, "Info", MB_OK);
 }
