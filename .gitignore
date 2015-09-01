@@ -19,6 +19,7 @@
 # IDE files
 *.ncb
 *.suo
+*.aps
 *.user
 [Dd]ebug*/
 [Rr]elease*/
